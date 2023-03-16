@@ -1,9 +1,0 @@
-/.phpunit.cache
-/public/build
-/public/hot
-/public/storage
-/vendor
-/.fleet
-/.idea
-/.vscode
-/node_modules
