@@ -55,6 +55,34 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="position-relative shadow rounded border-top border-5 border-primary">
+                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
+                                <i class="fa fa-handshake text-white"></i>
+                            </div>
+                            <div class="text-center border-bottom p-4 pt-5">
+                                <h4 class="fw-bold">پیمانکاران تبدیل</h4>
+                                <p class="mb-0">اطلاعات تماس پیمانکاران تبدیل دولتی</p>
+                            </div>
+                            <div class="text-center border-bottom p-4">
+                                <a class="btn btn-primary px-4 py-2" href="{{ route('contractors') }}">مشاهده اطلاعات</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="position-relative shadow rounded border-top border-5 border-primary">
+                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
+                                <i class="fa fa-id-card text-white"></i>
+                            </div>
+                            <div class="text-center border-bottom p-4 pt-5">
+                                <h4 class="fw-bold">گواهی احکام کسب و تجارت</h4>
+                                <p class="mb-0">ثبت نام کلاس آنلاین گواهی احکام کسب و تجارت</p>
+                            </div>
+                            <div class="text-center border-bottom p-4">
+                                <a class="btn btn-primary px-4 py-2" href="http://ecoat.otaghasnaftehran.ir/">ورود</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

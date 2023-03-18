@@ -22,6 +22,7 @@ Route::get('issues', function(){ return redirect('https://l.altfuel.ir/issues');
 Route::get('agencies', function(){ return view('agencies'); })->name('agencies');
 Route::get('hidros', function(){ return view('hidros'); })->name('hidros');
 Route::get('contact-us', function(){ return view('contact-us'); })->name('contact-us');
+Route::get('contractors', function(){ return view('contractors'); })->name('contractors');
 
 
 Route::get('/test', function () {
