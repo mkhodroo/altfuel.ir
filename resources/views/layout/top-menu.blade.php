@@ -2,8 +2,8 @@
 <div class="container-xxl position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="" class="navbar-brand p-0">
-            <h1 class="m-0"><i class="fa fa-server me-3"></i>{{ config('app.name') }}</h1>
-            <!-- <img src="img/logo.png" alt="Logo"> -->
+            {{-- <h1 class="m-0"><i class="fa fa-server me-3"></i>{{ config('app.name') }}</h1> --}}
+            <img src="{{ url('public/logo.png') }}" alt="altfuel-logo" class="ms-4">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
@@ -12,7 +12,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">{{__('Home')}}</a>
                 <a href="about.html" class="nav-item nav-link">{{__('help')}}</a>
-                <a href="hosting.html" class="nav-item nav-link">{{__('issues')}}</a>
+                <a href="{{route('issues')}}" class="nav-item nav-link">{{__('issues')}}</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{__('agencies')}}</a>
                     <div class="dropdown-menu m-0">
@@ -20,8 +20,8 @@
                         <a href="{{ route('hidros') }}" class="dropdown-item">{{__('hidro statics')}}</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">{{__('contact us')}}</a>
-                <a href="contact.html" class="nav-item nav-link">{{__('about us')}}</a>
+                <a href="{{ route('contact-us') }}" class="nav-item nav-link">{{__('contact us')}}</a>
+                <a href="{{ route('contact-us') }}" class="nav-item nav-link">{{__('about us')}}</a>
             </div>
             <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
         </div>

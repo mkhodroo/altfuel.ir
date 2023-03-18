@@ -18,8 +18,10 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('issues', function(){ return redirect('https://l.altfuel.ir/issues'); })->name('issues');
 Route::get('agencies', function(){ return view('agencies'); })->name('agencies');
 Route::get('hidros', function(){ return view('hidros'); })->name('hidros');
+Route::get('contact-us', function(){ return view('contact-us'); })->name('contact-us');
 
 
 Route::get('/test', function () {

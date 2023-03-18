@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <h5 class="fw-bold text-white mb-4">ارتباط با ما</h5><hr>
-                <p class="mb-2"><i class="fa fa-map-marker-alt ms-3"></i>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک 2209، ساختمان صدف، طبقه 6 احد 2</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt ms-3"></i>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک 2209، ساختمان صدف، طبقه 6 واحد 2</p>
                 <p class="mb-2"><i class="fa fa-phone-alt ms-3"></i>021-91013791</p>
                 <p class="mb-2"><i class="fa fa-phone-alt ms-3"></i>021-91012961</p>
                 <p class="mb-2"><i class="fa fa-envelope ms-3"></i>info@altfuel.ir</p>

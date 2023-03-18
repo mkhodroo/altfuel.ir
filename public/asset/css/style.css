@@ -105,9 +105,9 @@ h6,
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-left: 25px;
-    padding: 35px 0;
-    font-size: 15px;
-    font-family: Samim, 'Montserrat', sans-serif;
+    padding: 15px 0 0 0 ;
+    font-size: 20px;
+    font-family: YekanPlus, 'Montserrat', sans-serif;
     color: #FFFFFF !important;
     text-transform: uppercase;
     font-weight: 500;
