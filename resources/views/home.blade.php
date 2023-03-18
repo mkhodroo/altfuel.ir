@@ -21,14 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{ url('asset/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{ url('asset/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ url('public/asset/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{ url('public/asset/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ url('asset/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ url('public/asset/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{ url('asset/css/style.css')}}" rel="stylesheet">
+    <link href="{{ url('public/asset/css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="{{ url('images/3a.jpg') }}">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="{{ url('public/images/3a.jpg') }}">
                     </div>
                 </div>
             </div>
@@ -571,14 +571,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url('asset/lib/wow/wow.min.js')}}"></script>
-    <script src="{{ url('asset/lib/easing/easing.min.js')}}"></script>
-    <script src="{{ url('asset/lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{ url('asset/lib/counterup/counterup.min.js')}}"></script>
-    <script src="{{ url('asset/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url('public/asset/lib/wow/wow.min.js')}}"></script>
+    <script src="{{ url('public/asset/lib/easing/easing.min.js')}}"></script>
+    <script src="{{ url('public/asset/lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{ url('public/asset/lib/counterup/counterup.min.js')}}"></script>
+    <script src="{{ url('public/asset/lib/owlcarousel/owl.carousel.min.js')}}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{ url('asset/js/main.js')}}"></script>
+    <script src="{{ url('public/asset/js/main.js')}}"></script>
 </body>
 
 </html>
