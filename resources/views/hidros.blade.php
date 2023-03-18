@@ -1,19 +1,21 @@
 @extends('layout.main')
 
 @section('content')
-    <table class="table table-striped" id="agencies">
-        <thead>
-            <tr>
-                <th>نام</th>
-                <th>کداتحادیه</th>
-                <th>استان</th>
-                <th>شهرستان</th>
-                <th>آدرس</th>
-                <th>تلفن</th>
-                <th>تاریخ انقضا پروانه کسب</th>
-            </tr>
-        </thead>
-    </table>
+    <div class="table-responsive">
+        <table class="table table-striped" id="agencies">
+            <thead>
+                <tr>
+                    <th>نام</th>
+                    <th>کد اتحادیه</th>
+                    <th>استان</th>
+                    <th>شهرستان</th>
+                    <th>آدرس</th>
+                    <th>تلفن</th>
+                    <th>تاریخ انقضا پروانه کسب</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
 @endsection
 
 @section('script')
