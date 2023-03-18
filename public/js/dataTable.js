@@ -12,7 +12,7 @@ function create_datatable(element_id, url ='', cols){
         // ],
         "displayLength": 25,
         language: {
-            url: '../resources/lang/fa.json' 
+            url: '../fa/resources/lang/fa.json' 
         }
     });
     
