@@ -25,6 +25,7 @@
                         <div class="text-center border-bottom p-4">
                             <p class="mb-0">تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک 2209، ساختمان صدف، طبقه 6 واحد 2</p>
                             <a class="btn btn-info px-4 py-2" href="https://nshn.ir/_bvZ5sNxihjM">مسیریابی با نشان</a>
+                            <a class="btn btn-info px-4 py-2" href="https://goo.gl/maps/TiUgd3ucH4XiQ1HE9">مسیریابی با گوگل</a>
                         </div>
 
                         <div class="text-center border-bottom p-4 pt-5">
