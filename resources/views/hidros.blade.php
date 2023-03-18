@@ -1,5 +1,10 @@
 @extends('layout.main')
 
+@php
+    $title = "مراکز مجاز هیدرو استاتیک";
+    $description = "لیست مراکز مجاز هیدرو استاتیک اتحادیه کشوری سوخت های جایگزین و خدمات وابسته";
+@endphp
+
 @section('content')
     <div class="table-responsive">
         <table class="table table-striped" id="agencies">
