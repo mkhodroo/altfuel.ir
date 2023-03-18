@@ -16,7 +16,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{__('agencies')}}</a>
                     <div class="dropdown-menu m-0">
-                        <a href="team.html" class="dropdown-item">{{__('technical services')}}</a>
+                        <a href="{{ route('agencies') }}" class="dropdown-item">{{__('technical services')}}</a>
                         <a href="testimonial.html" class="dropdown-item">{{__('hidro statics')}}</a>
                         <a href="comparison.html" class="dropdown-item">{{__('low pressure')}}</a>
                     </div>

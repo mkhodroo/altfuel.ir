@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('agencies', function(){ return view('agencies'); })->name('agencies');
+
 
 Route::get('/test', function () {
     Artisan::call('key:generate');

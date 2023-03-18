@@ -70,3 +70,10 @@
 
 <!-- Template Javascript -->
 <script src="{{ url('public/asset/js/main.js')}}"></script>
+
+<script src="{{ url('public/js/ajax.js')}}"></script>
+<script src="{{ url('public/js/dataTable.js')}}"></script>
+<script src="{{ url('public/js/dropzone.js')}}"></script>
+<script src="{{ url('public/js/scripts.js')}}"></script>
+
+@yield('script')
