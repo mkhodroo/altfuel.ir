@@ -5,7 +5,7 @@
         <thead>
             <tr>
                 <th>نام</th>
-                <th>کد اتحادیه</th>
+                <th>کداتحادیه</th>
                 <th>استان</th>
                 <th>شهرستان</th>
                 <th>آدرس</th>
@@ -20,7 +20,7 @@
     <script>
         create_datatable(
             "agencies", 
-            'https://l.altfuel.ir/api/agencies/get',
+            'https://l.altfuel.ir/api/hidro/get',
             [
                 { data: 'Name' },
                 { data: 'CodeEtehadie' },

@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('agencies', function(){ return view('agencies'); })->name('agencies');
+Route::get('hidros', function(){ return view('hidros'); })->name('hidros');
 
 
 Route::get('/test', function () {
