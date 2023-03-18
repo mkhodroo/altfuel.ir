@@ -24,6 +24,14 @@
                         </div>
                         <div class="text-center border-bottom p-4">
                             <p class="mb-0">تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک 2209، ساختمان صدف، طبقه 6 واحد 2</p>
+                            <a class="btn btn-info px-4 py-2" href="https://nshn.ir/_bvZ5sNxihjM">مسیریابی با نشان</a>
+                        </div>
+
+                        <div class="text-center border-bottom p-4 pt-5">
+                            <h4 class="fw-bold">کدپستی</h4>
+                        </div>
+                        <div class="text-center border-bottom p-4">
+                            <p class="mb-0">1511943884</p>
                         </div>
                     </div>
                 </div>
