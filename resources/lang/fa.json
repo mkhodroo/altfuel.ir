@@ -7,5 +7,25 @@
     "hidro statics":"هیدرواستاتیک",
     "low pressure":"کم فشار",
     "about us": "درباره ما",
-    "contact us": "تماس با ما"
+    "contact us": "تماس با ما",
+    "search": "جستجو: ",
+    "processing":     "درحال پردازش...",
+    "lengthMenu":    "",
+    "info":           "نمایش _START_ تا _END_ از _TOTAL_ رکورد",
+    "infoEmpty":      "اطلاعات خالی",
+    "infoFiltered":   "اطلاعات فیلترشده",
+    "infoPostFix":    "",
+    "loadingRecords": "درحال دریافت اطلاعات",
+    "zeroRecords":    "رکوردی یافت نشد",
+    "emptyTable":     "جدول خالی",
+    "paginate": {
+        "first":      "اولین",
+        "previous":   "قبلی",
+        "next":       "بعدی",
+        "last":       "آخرین"
+    },
+    "aria": {
+        "sortAscending":  "مرتب سازی صعودی",
+        "sortDescending": "مرتب سازی نزولی"
+    }
 }
