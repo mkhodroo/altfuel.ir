@@ -1,5 +1,10 @@
 @extends('layout.main')
 
+@php
+    $title = "مراکز مجاز خدمات فنی";
+    $description = "لیست مراکز مجاز خدمات فنی اتحادیه کشوری سوخت های جایگزین و خدمات وابسته";
+@endphp
+
 @section('content')
     <table class="table table-striped" id="agencies">
         <thead>
