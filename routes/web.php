@@ -28,3 +28,8 @@ Route::get('contractors', function(){ return view('contractors'); })->name('cont
 Route::get('/test', function () {
     Artisan::call('key:generate');
 });
+
+Route::get('download/{file_name}', function($file_name){
+    $path = public_path("uploads\\$file_name");
+    return response()->download($path, $file_name);
+})->name('download');

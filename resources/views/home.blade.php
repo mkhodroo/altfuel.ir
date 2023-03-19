@@ -146,7 +146,7 @@
                             <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="bg-light rounded text-center p-4">
                                     <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                    <h2 class="mb-1" data-toggle="counter-up">1259</h2>
                                     <p class="mb-0">اعضا</p>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                             <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="bg-light rounded text-center p-4">
                                     <i class="fa fa-check fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                    <h2 class="mb-1" data-toggle="counter-up">888</h2>
                                     <p class="mb-0">پروانه های فعال</p>
                                 </div>
                             </div>
@@ -194,12 +194,13 @@
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                                 <i class="fa fa-server fa-3x text-primary mb-3"></i>
                                 <h5 class="fw-bold">قانون نظام صنفی</h5>
-                                <p></p>
+                                <p><a href="{{ route('download', ['file_name' => 'nezamsenfi.zip']) }}">برا دانلود کلیک کنید</a></p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
                                 <h5 class="fw-bold">معاینه فنی</h5>
                                 <p>	آیین نامه اجرایی نحوه انجام معاینه و صدور برگ معاینه فنی خودرو-93</p>
+                                <p><a href="{{ route('download', ['file_name' => 'دستورالعمل-مادخ3-آئین-نامه-اجرایی.pdf']) }}">برای دانلود کلیک کنید</a></p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                                 <i class="fa fa-cog fa-3x text-primary mb-3"></i>
@@ -209,7 +210,7 @@
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                                 <i class="fa fa-headset fa-3x text-primary mb-3"></i>
                                 <h5 class="fw-bold">استانداردهای مرتبط</h5>
-                                <p></p>
+                                <p><a href="{{ route('download', ['file_name' => 'standard5601.zip']) }}">برای دانلود کلیک کنید</a></p>
                             </div>
                         </div>
                     </div>
@@ -222,11 +223,13 @@
                                 <i class="fa fa-server fa-3x text-secondary mb-3"></i>
                                 <h5 class="fw-bold">تعهدنامه اجاره</h5>
                                 <p>	متن تعهد نامه محضری جهت اجاره نامه های عادی</p>
+                                <p><a href="{{ route('download', ['file_name' => 'تعهد-نامه-محضری-جهت-اجاره-نامه-های-عادی.docx']) }}">برای دانلود کلیک کنید</a></p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <i class="fa fa-shield-alt fa-3x text-secondary mb-3"></i>
                                 <h5 class="fw-bold">چک لیست بازرسی</h5>
                                 <p>	چک لیست ارزیابی مراکز خدمات فنی خودروهای گازسوز</p>
+                                <p><a href="{{ route('download', ['file_name' => 'چک-لیست-ارزیابی-مراکز-خدمات-فنی.pdf']) }}">برای دانلود کلیک کنید</a></p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                                 <i class="fa fa-cog fa-3x text-secondary mb-3"></i>
