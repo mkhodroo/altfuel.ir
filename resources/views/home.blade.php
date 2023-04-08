@@ -83,6 +83,20 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="position-relative shadow rounded border-top border-5 border-primary">
+                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
+                                <i class="fa fa-id-card text-white"></i>
+                            </div>
+                            <div class="text-center border-bottom p-4 pt-5">
+                                <h4 class="fw-bold">پرداخت حق عضویت </h4>
+                                <p class="mb-0">l.altfuel.ir/bedehi</p>
+                            </div>
+                            <div class="text-center border-bottom p-4">
+                                <a class="btn btn-primary px-4 py-2" href="https://l.altfuel.ir/bedehi">ورود</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
