@@ -269,30 +269,16 @@
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">کارشناسان ما در اتحادیه</h1>
+                    <h1 class="mb-3">همکاران ما در اتحادیه</h1>
                     <p class="mb-1"></p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
-                            <div class="text-center p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="">
-                                <h5 class="fw-bold mb-1">ملکه کارگر</h5>
-                                <small>مدیر سیستم ها و روش ها</small>
-                            </div>
-                            <div class="d-flex justify-content-center bg-primary p-3">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
                             <div class="text-center p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
                                 <h5 class="fw-bold mb-1">ولی اله شهاب</h5>
-                                <small>مسئول امور اداری</small>
+                                <small>رئیس دفتر</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-3">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -306,7 +292,7 @@
                             <div class="text-center p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
                                 <h5 class="fw-bold mb-1">پویان کابلی</h5>
-                                <small>مسئول واحد بازرسی</small>
+                                <small>مسئول واحد شکایات و بازرسی</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-3">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -348,7 +334,7 @@
                             <div class="text-center p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="">
                                 <h5 class="fw-bold mb-1">محمدرضا نظری</h5>
-                                <small>مسئول امور مالی</small>
+                                <small>مدیر مالی-اداری</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-3">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -376,7 +362,7 @@
                             <div class="text-center p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="">
                                 <h5 class="fw-bold mb-1">الهام سیدی</h5>
-                                <small>کارشناس امور مراکز</small>
+                                <small>کارشناس امور مراکز و سامانه irngv</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-3">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -390,7 +376,7 @@
                             <div class="text-center p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="">
                                 <h5 class="fw-bold mb-1">فاطمه شهیدی</h5>
-                                <small>کارشناس امور مراکز</small>
+                                <small>کارشناس امور مراکز و سامانه irngv</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-3">
                                 <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
