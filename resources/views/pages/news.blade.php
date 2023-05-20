@@ -26,7 +26,7 @@
                                 <small>{{ $post->meta_desc ?? '' }}</small>
                             </div>
                             <div class="d-flex justify-content-center bg-primary p-1">
-                                <a class="btn text-primary bg-white" href="{{ $post->readMoreLink }}">ادامه مطلب</a>
+                                <a class="btn text-primary bg-white" href="{{ route('news.show', ['id' => $post->id]) }}">ادامه مطلب</a>
                             </div>
                         </div>
                     </div>
