@@ -31,6 +31,6 @@ Route::get('/test', function () {
 });
 
 Route::get('download/{file_name}', function($file_name){
-    $path = public_path("uploads\\$file_name");
+    $path = public_path("uploads/$file_name");
     return response()->download($path, $file_name);
 })->name('download');
