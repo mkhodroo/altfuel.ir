@@ -11,6 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">{{__('Home')}}</a>
+                <a href="{{ route('news') }}" class="nav-item nav-link ">{{__('اخبار')}}</a>
                 <a href="about.html" class="nav-item nav-link">{{__('help')}}</a>
                 <a href="{{route('issues')}}" class="nav-item nav-link">{{__('issues')}}</a>
                 <div class="nav-item dropdown">
@@ -20,6 +21,7 @@
                         <a href="{{ route('hidros') }}" class="dropdown-item">{{__('hidro statics')}}</a>
                     </div>
                 </div>
+                <a href="{{ route('download', ['file_name' => 'nerkhnameh-1402-marakez.pdf']) }}" class="nav-item nav-link">{{__('نرخنامه 1402')}}</a>
                 <a href="{{ route('contact-us') }}" class="nav-item nav-link">{{__('contact us')}}</a>
                 <a href="{{ route('contact-us') }}" class="nav-item nav-link">{{__('about us')}}</a>
             </div>

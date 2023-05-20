@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('news', function(){ return view('pages.news'); })->name('news');
 Route::get('issues', function(){ return redirect('https://l.altfuel.ir/issues'); })->name('issues');
 Route::get('agencies', function(){ return view('agencies'); })->name('agencies');
 Route::get('hidros', function(){ return view('hidros'); })->name('hidros');
