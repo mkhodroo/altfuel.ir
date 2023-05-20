@@ -19,7 +19,7 @@
             @foreach ($posts as $post)
                 <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
+                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden m-1">
                             <div class="text-center p-4" style="text-align: right !important">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
                                 <h5 class="fw-bold mb-1">{{ $post->title ?? '' }}</h5>
