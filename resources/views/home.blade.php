@@ -210,29 +210,55 @@
                 <div class="row g-5 comparison position-relative">
                     <div class="col-lg-6 pe-lg-5">
                         <div class="section-title position-relative mx-auto mb-4 pb-4">
-                            <h3 class="fw-bold mb-0">آشنایی با قوانین</h3>
+                                <h3 class="fw-bold">استانداردهای مرتبط</h3>
                         </div>
                         <div class="row gy-3 gx-5">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <i class="fa fa-server fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">قانون نظام صنفی</h5>
-                                <p><a href="{{ route('download', ['file_name' => 'nezamsenfi.zip']) }}">برا دانلود کلیک کنید</a></p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">معاینه فنی</h5>
-                                <p>	آیین نامه اجرایی نحوه انجام معاینه و صدور برگ معاینه فنی خودرو-93</p>
-                                <p><a href="{{ route('download', ['file_name' => 'دستورالعمل-مادخ3-آئین-نامه-اجرایی.pdf']) }}">برای دانلود کلیک کنید</a></p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <i class="fa fa-cog fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">تداخل صنفی</h5>
-                                <p></p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-headset fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">استانداردهای مرتبط</h5>
-                                <p><a href="{{ route('download', ['file_name' => 'standard5601.zip']) }}">برای دانلود کلیک کنید</a></p>
+                            <div class="col-sm-12 wow fadeIn" data-wow-delay="0.7s">
+                                <table class="table table-stripped">
+                                    <tr>
+                                        <td>9747</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '9747-1397.pdf']) }}">خودروهای با سوخت گاز طبیعی فشرده(CNG)- بازرسی ادواری</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9426</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '9426-1398.pdf']) }}">سیلندرهای گاز-بازرسی نصب و بازسنجی کیفیت سیلندرهای فشار زیاد نصب شده بر روی خودروها به‌منظور ذخیره‌سازی گاز طبیعی به‌عنوان سوخت</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7598</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '7598-1400.pdf']) }}">خودروهای با سوخت گاز طبیعی فشردهCNG))ـ ویژگی‌ها و روش‌های آزمون مجموعه قطعات گازسوزCNG و الزامات نصب آن‌ها بر روی خودرو</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6792</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '6792-1398.pdf']) }}">سیلندرهای گاز– سیلندرها و تیوب­ های بدون درز فولادی وآلیاژ آلومینیومی- بازرسی و آزمون دوره ­ای</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>22875</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '22875-1400.pdf']) }}">خودروهای جاده ای - نصب قطعات سامانه سوخت رسانی گاز طبیعی فشرده (CNG) بر روی خودرو های بنزین سوز به صورت کارگاهی – الزامات عمومی</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5600</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '5600-1398.pdf']) }}">اجزاء گازسوز کردن خودرو با سوخت گاز مایع LPG آزمون و راه ‏اندازی و بازدید دوره‏ای</a></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5601</td>
+                                        <td>
+                                            <p><a href="{{ route('download', ['file_name' => '5601-1398.pdf']) }}">الزامات تائید کارگاههای خدمات خودروهای گازسوزCNG -آیین کار</a></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
                             </div>
                         </div>
                     </div>
@@ -262,6 +288,17 @@
                                 <i class="fa fa-headset fa-3x text-secondary mb-3"></i>
                                 <h5 class="fw-bold">ضوابط خاص</h5>
                                 <p>	ضوابط خاص اتحادیه کشوری صنف خدمات فنی خودروهای گازسوز ماده</p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <i class="fa fa-server fa-3x text-primary mb-3"></i>
+                                <h5 class="fw-bold">قانون نظام صنفی</h5>
+                                <p><a href="{{ route('download', ['file_name' => 'nezamsenfi.zip']) }}">برا دانلود کلیک کنید</a></p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
+                                <h5 class="fw-bold">معاینه فنی</h5>
+                                <p>	آیین نامه اجرایی نحوه انجام معاینه و صدور برگ معاینه فنی خودرو-93</p>
+                                <p><a href="{{ route('download', ['file_name' => 'دستورالعمل-مادخ3-آئین-نامه-اجرایی.pdf']) }}">برای دانلود کلیک کنید</a></p>
                             </div>
                         </div>
                     </div>
