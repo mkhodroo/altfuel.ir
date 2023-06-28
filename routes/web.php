@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\AssignOp\Concat;
@@ -14,6 +15,14 @@ use PhpParser\Node\Expr\AssignOp\Concat;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('test', function(){
+    return view('test');
+})->name('test');
+
+Route::post('test', function(Request $r){
+    return $r->file('file');
+})->name('test');
 
 Route::get('/', function () {
     return view('home');
