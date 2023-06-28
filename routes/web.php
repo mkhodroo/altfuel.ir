@@ -44,9 +44,6 @@ Route::name('news')->prefix('news')->group(function(){
     })->name('.show');
 });
 
-Route::get('/test', function () {
-    Artisan::call('key:generate');
-});
 
 Route::get('download/{file_name}', function($file_name){
     $path = public_path("uploads/$file_name");
