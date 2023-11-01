@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ $title ?? config('app.name') }}</title>
+    <meta name="enamad" content="329866" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="{{ $keywords ?? config('app.keywords') }}" name="keywords">
     <meta content="{{ $description ?? config('app.description') }}" name="description">
