@@ -15,6 +15,19 @@
                                 <i class="fa fa-share-alt text-white"></i>
                             </div>
                             <div class="text-center border-bottom p-4 pt-5">
+                                <h4 class="fw-bold">تکمیل ثبت نام آزمایشگاه هیدرواستاتیک</h4>
+                            </div>
+                            <div class="text-center border-bottom p-4">
+                                <a class="btn btn-primary px-4 py-2" href="https://l.altfuel.ir/hidro-registration/find-form">ورود</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="position-relative shadow rounded border-top border-5 border-primary">
+                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
+                                <i class="fa fa-share-alt text-white"></i>
+                            </div>
+                            <div class="text-center border-bottom p-4 pt-5">
                                 <h4 class="fw-bold">سامانه صدور پروانه کسب</h4>
                                 <p class="mb-0">bpms.altfuel.ir</p>
                             </div>
