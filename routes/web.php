@@ -20,9 +20,6 @@ Route::get('test', function(){
     return view('test');
 })->name('test');
 
-Route::post('test', function(Request $r){
-    return $r->file('file');
-})->name('test');
 
 Route::get('/', function () {
     return view('home');
