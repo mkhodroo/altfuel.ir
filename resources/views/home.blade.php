@@ -15,7 +15,8 @@
                                 <i class="fa fa-share-alt text-white"></i>
                             </div>
                             <div class="text-center border-bottom p-4 pt-5">
-                                <h4 class="fw-bold">تکمیل ثبت نام آزمایشگاه هیدرواستاتیک</h4>
+                                <h4 class="fw-bold">ثبت نام آزمایشگاه های تست هیدرو استاتیک در سامانه irngv </h4>
+                                <p>(ویژه آزمایشگاه هایی که تا کنون در سامانه عضو نشده اند)</p>
                             </div>
                             <div class="text-center border-bottom p-4">
                                 <a class="btn btn-primary px-4 py-2" href="https://l.altfuel.ir/hidro-registration/find-form">ورود</a>
